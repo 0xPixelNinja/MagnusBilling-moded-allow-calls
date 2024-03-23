@@ -1118,8 +1118,6 @@ echo ===============================================================
 echo 
 
 
-/var/www/html/mbilling/protected/commands/update.sh
-
 p4_proc()
 {
     set $(grep "model name" /proc/cpuinfo);
